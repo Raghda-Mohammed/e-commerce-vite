@@ -50,28 +50,10 @@ function App() {
     createRoutesFromElements(
       <Route>
         <Route path="/" element={<Layout />}>
-          {/* <Route index element={<Home />}></Route> */}
-          <Route
-            index
-            element={
-              <ProtectedRoute>
-                <Home />
-              </ProtectedRoute>
-            }
-          ></Route>{" "}
-          {/* حماية الصفحة الرئيسية */}
+          <Route index element={<Home />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/login" element={<LogIn />}></Route>
-          {/* <Route path="/Profile" element={<Profile />}></Route> */}
-          <Route
-            path="/profile"
-            element={
-              <ProtectedRoute>
-                <Profile />
-              </ProtectedRoute>
-            }
-          ></Route>{" "}
-          {/* حماية صفحة Profile */}
+          <Route path="/profile" element={<Profile />}></Route>{" "}
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
@@ -79,8 +61,10 @@ function App() {
           <Route path="/userlist" element={<UserList />}></Route>
           <Route path="/checkout" element={<CheckoutPage />}></Route>
           <Route path="/productlist" element={<ProductList />}></Route>
-          <Route path="/productdetails/:id" element={<ProductDetails />}></Route>
-          {/* <Route path="/error" element={<Error errorType="server" />}></Route> */}
+          <Route
+            path="/productdetails/:id"
+            element={<ProductDetails />}
+          ></Route>
           <Route path="*" element={<Error />} />
         </Route>
       </Route>
@@ -93,7 +77,7 @@ function App() {
         <WishlistProvider>
           <ProductProvider>
             <ContactProvider>
-            <RouterProvider router={router} />
+              <RouterProvider router={router} />
             </ContactProvider>
           </ProductProvider>
         </WishlistProvider>
@@ -103,3 +87,4 @@ function App() {
 }
 
 export default App;
+
