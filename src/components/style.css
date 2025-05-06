@@ -1,0 +1,37 @@
+.absolute {
+    position: absolute;
+  }
+  .bottom-0 {
+    bottom: 0;
+  }
+  .left-0 {
+    left: 0;
+  }
+  .w-full {
+    width: 100%;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .bg-blue-500 {
+    background-color: #3b82f6;
+  }
+  .text-white {
+    color: #ffffff;
+  }
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .opacity-0 {
+    opacity: 0;
+  }
+  .transition-opacity {
+    transition-property: opacity;
+  }
+  .duration-300 {
+    transition-duration: 300ms;
+  }
+  .group-hover:opacity-100:hover .group .add-to-cart-button {
+    opacity: 1;
+  }

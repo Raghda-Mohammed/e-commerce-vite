@@ -1,0 +1,111 @@
+import { image_1, image_2, image_3 } from "../../assets";
+
+const persons = [
+  {
+    id: "1",
+    name: "Tom Cruise",
+    img: image_1,
+    alt: "aboutAmage 1",
+    job: "Fuonder & Chairman",
+  },
+  {
+    id: "2",
+    name: "Emma Watson",
+    img: image_2,
+    alt: "About Amage 2",
+    job: "Managing Director",
+  },
+  {
+    id: "3",
+    name: "will Smith",
+    img: image_3,
+    alt: "About Amage 3",
+    job: "Product Designer",
+  },
+  {
+    id: "4",
+    name: "Tom Cruise",
+    img: image_1,
+    alt: "aboutAmage 1",
+    job: "Fuonder & Chairman",
+  },
+  {
+    id: "5",
+    name: "Emma Watson",
+    img: image_2,
+    alt: "About Amage 2",
+    job: "Managing Director",
+  },
+  {
+    id: "6",
+    name: "will Smith",
+    img: image_3,
+    alt: "About Amage 3",
+    job: "Product Designer",
+  },
+  {
+    id: "7",
+    name: "Tom Cruise",
+    img: image_1,
+    alt: "aboutAmage 1",
+    job: "Fuonder & Chairman",
+  },
+  {
+    id: "8",
+    name: "Emma Watson",
+    img: image_2,
+    alt: "About Amage 2",
+    job: "Managing Director",
+  },
+  {
+    id: "9",
+    name: "will Smith",
+    img: image_3,
+    alt: "About Amage 3",
+    job: "Product Designer",
+  },
+  {
+    id: "10",
+    name: "Tom Cruise",
+    img: image_1,
+    alt: "aboutAmage 1",
+    job: "Fuonder & Chairman",
+  },
+  {
+    id: "11",
+    name: "Emma Watson",
+    img: image_2,
+    alt: "About Amage 2",
+    job: "Managing Director",
+  },
+  {
+    id: "12",
+    name: "will Smith",
+    img: image_3,
+    alt: "About Amage 3",
+    job: "Product Designer",
+  },
+  {
+    id: "13",
+    name: "Tom Cruise",
+    img: image_1,
+    alt: "aboutAmage 1",
+    job: "Fuonder & Chairman",
+  },
+  {
+    id: "14",
+    name: "Emma Watson",
+    img: image_2,
+    alt: "About Amage 2",
+    job: "Managing Director",
+  },
+  {
+    id: "15",
+    name: "will Smith",
+    img: image_3,
+    alt: "About Amage 3",
+    job: "Product Designer",
+  },
+];
+
+export default persons;
